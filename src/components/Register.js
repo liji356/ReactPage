@@ -1,0 +1,32 @@
+import React from 'react'
+import Navbar from './Navbar'
+
+const Register = () => {
+  return (
+    <div>
+      <Navbar/>
+      <div className="container">
+    <div className="row">
+        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div className="row">
+                <div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" className="form-label">USERNAME</label>
+                <input type="text" className="form-control"/>
+                </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <label for="" className="form-label">password</label>
+                <input type="text" className="form-control"/>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button className="btn btn-info">Login</button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+  )
+}
+
+export default Register
